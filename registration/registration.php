@@ -64,7 +64,7 @@ class registration
         $phpmailer->SMTPSecure = 'ssl';
         $phpmailer->SMTPAuth   = true;
         $phpmailer->Username   = 'chaudharymilan996@gmail.com';
-        $phpmailer->Password   = 'mnymcyfldewkttjn';
+        $phpmailer->Password   = ''; // app password is removed for security reasion
         $phpmailer->From    = 'chaudharymilan996@gmail.com';
     }
 
